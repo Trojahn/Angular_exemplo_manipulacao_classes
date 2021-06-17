@@ -1,27 +1,16 @@
-# ExemplosManipulacaoClasses
+# Angular - Exemplo de Manipulação de Classes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+Este é um gerado pelo [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.6.
 
-## Development server
+## Objetivo 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este é um pequeno projeto didático criado para exemplificar algumas das as possíveis manipulações de classes de elementos HTML.
 
-## Code scaffolding
+## Detalhes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto foi desenvolvido usando a biblioteca [Bulma CSS](https://bulma.io/). Nenhum dos recursos das manipulações dos elementos está diretamente vinculado ao Bulma CSS, ou seja, você pode utilizar os conceitos aqui mostrados em qualquer projeto Angular.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Como rodar?
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Entre na pasta do projeto e execute `ng serve` para acessar. Não se esqueça de usar o navegador para ir no endereço que aparecer na tela (em geral: http://localhost:4200)
