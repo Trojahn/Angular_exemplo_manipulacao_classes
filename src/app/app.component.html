@@ -10,7 +10,7 @@
     <nav class="menu">
       <p class="menu-label">Selecione uma opção</p>
       <ul class="menu-list">
-        <li><a href="#" [class.is-active]="menu == 1? 'is-active': ''" (click)="escolhaMenu(1)">Opção 1</a></li>
+        <li><a href="#" [class.is-active]="menu == 1" (click)="escolhaMenu(1)">Opção 1</a></li>
         <li><a href="#" [class.is-active]="menu == 2" (click)="escolhaMenu(2)">Opção 2</a></li>
         <li><a href="#" [ngClass]="menu == 3? 'is-active' : ''" (click)="escolhaMenu(3)">Opção 3</a></li>
         <li><a href="#" [ngClass]="menu == 4? 'is-active' : ''" (click)="escolhaMenu(4)">Opção 4</a></li>
